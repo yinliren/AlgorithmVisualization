@@ -1,5 +1,6 @@
 package RandomMoneyGiving;
 
+import java.util.Arrays;
 import java.awt.*;
 
 public class AlgoVisualizer {
@@ -24,20 +25,26 @@ public class AlgoVisualizer {
         });
     }
 
+    // Animation Logic
     public void run(){
 
         while(true){
 
+            Arrays.sort(money);
             frame.render(money);
             AlgoVisHelper.pause(DELAY);
 
-            for(int i = 0 ; i < money.length; i ++){
-                if(money[i] > 0){
-                    int j = (int)(Math.random() * money.length);
-                    money[i] -= 1;
-                    money[j] += 1;
+            // k < 5 means the animation is running 5 times as the normal speed
+            for (int k = 0 ; k < 5 ; k++) {
+                for(int i = 0 ; i < money.length; i ++){
+                    if(money[i] > 0){
+                        int j = (int)(Math.random() * money.length);
+                        money[i] -= 1;
+                        money[j] += 1;
+                    }
                 }
             }
+
         }
     }
 
