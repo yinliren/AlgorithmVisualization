@@ -1,6 +1,6 @@
 # AlgorithmVisualization
 
-**Develop Environment:**
+**Develop Environment:**<br />
 IntelliJ IDEA 2018.2.5 (Ultimate Edition)<br />
 JRE: 1.8.0_152-release-1248-b19 x86_64<br />
 JVM: OpenJDK 64-Bit Server VM by JetBrains s.r.o<br />
