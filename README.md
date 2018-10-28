@@ -10,7 +10,7 @@ macOS 10.13.6<br />
 1. Random Money Giving Simulation
 
 
-### Random Giving Money Simulation<br />
+### 1. Random Giving Money Simulation<br />
 Original Article: <http://www.decisionsciencenews.com/2017/06/19/counterintuitive-problem-everyone-room-keeps-giving-dollars-random-others-youll-never-guess-happens-next/> <br />
 
 Imagine a room full of 100 people with 100 dollars each. With every tick of the clock, every person with money gives a dollar to one randomly chosen other person. After some time progresses, how will the money be distributed? <br />
