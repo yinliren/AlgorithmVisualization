@@ -26,6 +26,6 @@ After applying the sorting, the simulated distribution can be seen more clearly:
 ![Alt Text](https://github.com/yinliren/AlgorithmVisualization/blob/master/src/RandomMoneyGiving/RandomMoneyGiving_Sorted.gif)
 <br />
 In the above simulation, there's no debt concept. Here's the simulation with debt concept, no matter how much money is left for a person, that person still need to give money in his/her turn. If he/she owns money less than zero, he/she is in debt, and the bar in red will be shown: <br />
-![Alt Text]() <br />
-
+![Alt Text](https://github.com/yinliren/AlgorithmVisualization/blob/master/src/RandomMoneyGiving/RandomGivingMoney_withDebt.gif) <br />
+<br />
 **"The point is not that some people become rich and never lose their top position. This runs infinitely and will contain every possible sequence of good and bad luck for every person. The richest will become the poorest, everyone will experience every rank, and so on. The interesting thing is that this simple simulation arrives at a stationary distribution with a skewed, exponential shape. This is due to the boundary at zero wealth which, we imagine, people don’t consider when they think about the problem quickly."**
