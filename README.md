@@ -10,6 +10,5 @@ macOS 10.13.6<br />
 Before sorting the outcomes, the simulated distribution of money is shown as below:<br />
 ![Alt Text](https://github.com/yinliren/AlgorithmVisualization/blob/master/src/RandomMoneyGiving/RandomGivingMoney.gif)<br />
 <br />
-<br />
 After applying the sorting, the simulated distribution can be seen more clearly: <br />
 
