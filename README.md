@@ -8,7 +8,7 @@ macOS 10.13.6<br />
 
 ## Content <br />
 1. Random Money Giving Simulation
-
+2. Monte Carlo Simulation: Value of Pi 
 
 ### 1. Random Giving Money Simulation<br />
 Original Article: <http://www.decisionsciencenews.com/2017/06/19/counterintuitive-problem-everyone-room-keeps-giving-dollars-random-others-youll-never-guess-happens-next/> <br />
