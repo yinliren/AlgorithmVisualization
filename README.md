@@ -29,3 +29,19 @@ In the above simulation, there's no debt concept. Here's the simulation with deb
 ![Alt Text](https://github.com/yinliren/AlgorithmVisualization/blob/master/src/RandomMoneyGiving/RandomGivingMoney_withDebt.gif) <br />
 <br />
 **"The point is not that some people become rich and never lose their top position. This runs infinitely and will contain every possible sequence of good and bad luck for every person. The richest will become the poorest, everyone will experience every rank, and so on. The interesting thing is that this simple simulation arrives at a stationary distribution with a skewed, exponential shape. This is due to the boundary at zero wealth which, we imagine, people don’t consider when they think about the problem quickly."**
+
+### 2. Monte Carlo Simulation: Value of Pi <br />
+Assume R is the radius of the circle in a simulation. If a square is perfectly fit the circle outside the circle, the length of the square side is 2R. Then we have: <br />
+Area of Square: 2R * 2R = 4R^2 <br />
+Area of Circle: Pi * R * R = Pi * R^2 <br />
+Area of Circle / Area of Square = Pi / 4 <br />
+Then we have Pi = 4 * (Area of Circle) / (Area of Square) <br />
+By randomly generate point on the square, if the point is within the circle, the point is in red. Otherwise, the point is in green. <br />
+![Alt Text](https://github.com/yinliren/AlgorithmVisualization/blob/master/src/MonteCarloSimulation/MonteCarloSimulation_Pi.gif) <br />
+<br />
+Number of Red dots: Area of Circle <br />
+Number of Green dots: Area of Square <br />
+Pi = 4 * (Number of Red dots) / (Number of Green dots) <br />
+Without processing UI, more simulations can be done in one time to get a more accurate value: <br />
+![Alt Text](https://github.com/yinliren/AlgorithmVisualization/blob/master/src/MonteCarloSimulation/MonteCarloExperiment.gif) <br />
+We can see that the simulation is precise enough to estimate the value of Pi. <br />
