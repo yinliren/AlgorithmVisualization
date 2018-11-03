@@ -1,4 +1,4 @@
-# AlgorithmVisualization
+# Java Math Simulation Visualization
 
 **Develop Environment:**<br />
 IntelliJ IDEA 2018.2.5 (Ultimate Edition)<br />
